@@ -1,0 +1,143 @@
+body{
+    font-family: 'Outfit';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.container{
+    background-color: #1F2937;
+    height: 30vh;
+    color: #f9faf8;
+    padding: 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container > .header > .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.infopics{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.infopics > h2{
+    margin-bottom: 50px;
+}
+.container > .header{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+h2{
+    text-align: center;
+}
+.header > p{
+    font-size: 18px;
+    color: #f9faf8
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ps{
+    display: flex;
+    justify-content: center;
+    gap: 132px;
+}
+.pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.pics > img{
+    border: 3px solid #1F2937;
+    border-radius: 20px;
+}
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.quote > .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+}
+.quote > .name{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    font-weight: bold;
+}
+.text{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+button{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    background-color: #3882F6;
+}
+.footer > .footer-container > button{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    background-color: #3882F6;
+    border: 3px solid white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 100px;
+}
+.footer > .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    color: white;
+    background-color: #3882F6;
+    border: 30px solid #3882F6;
+    border-radius: 10px;
+}
+.footer > .footer-container > .left > h3{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.footer > .footer-container> .left > p{
+    margin-top: 0;
+}.madeby{
+    width: 100%;
+    height: 70px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
